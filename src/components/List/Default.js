@@ -8,3 +8,11 @@ const Wrapper = ({ children }) => (
 const renderItem = ({ key, value }) => (
   <li key={key}>{value}</li>
 );
+
+const DefaultList = ({ items }) => (
+  <Wrapper>
+    <List items={items} renderItem={renderItem}>
+  </Wrapper>
+);
+
+export default DefaultList;
