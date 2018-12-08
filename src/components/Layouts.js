@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 
-import Title
-import Image
-import Directions
-import Ingredients
-import Button
-import Link
+import Title from ''
+import Image from ''
+import Directions from ''
+import Ingredients from ''
+import Button from ''
+import Link from ''
 
 
 const RecipeCardLayout = () => (

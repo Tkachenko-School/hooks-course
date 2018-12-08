@@ -4,7 +4,7 @@ class List extends Component {
 
   render() {
     const { items, renderItem } = this.props;
-    
+
     return (
       <Fragment>
         {items.map(index, value) => (
@@ -15,3 +15,5 @@ class List extends Component {
   }
 
 }
+
+export default List;
