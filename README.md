@@ -3,7 +3,43 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 https://drive.google.com/file/d/16-Jkh8VHcDEKwOtuZEhDZXobBOTVsWo_/view
 
+https://drive.google.com/file/d/1Orq3YUqMEnlrpJArn2R5tac7cCoZV7tB/view
 
+https://github.com/ChickenKyiv/css-course/blob/master/img/single-recipe-page.png
+
+
+Idea: Edit Link can work too, so we'll pull data from it
+without all data passed to state.
+
+
+- [ ] https://github.com/ChickenKyiv/recipe-box/blob/master/src/components/RecipeList/RecipeList.js
+
+- [ ]
+https://github.com/ChickenKyiv/react-menu-monkey-client/blob/master/src/components/RecipeCard.js
+
+- [ ] https://github.com/vjwilson/recipes-frontend/blob/master/src/components/Recipe/Recipe.js
+
+- [ ] https://github.com/ChickenKyiv/recipe-box/blob/master/src/components/RCard3.js
+
+- [ ] https://github.com/ChickenKyiv/recipe-box/blob/master/src/components/Recipe/List.js
+
+- [ ]
+https://github.com/ChickenKyiv/recipe-box/blob/master/src/components/Recipe/List.js
+
+- [ ]
+https://github.com/ChickenKyiv/recipe-box/blob/master/src/components/RCard2/Rcard2.js
+
+- [ ] https://github.com/ChickenKyiv/recipe-box/blob/master/src/components/RCard/RCard.js
+
+- [ ]
+https://github.com/atherdon/planEats/blob/master/client/src/components/RecipeSearch.js
+
+- [ ]
+https://github.com/renken/meal.next/tree/master/mobile/app
+
+think about using
+https://github.com/tricoder42/named-urls
+https://itnext.io/named-urls-in-react-router-7949ff71f41d
 
 
 ## Available Scripts
