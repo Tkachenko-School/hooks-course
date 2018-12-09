@@ -23,15 +23,17 @@ const RecipeCardLayout = () => (
 export default RecipeCardLayout;
 
 
-const RecipeFullLayout = () => (
+const RecipeFullLayout = ({ id, name, categories, author, ingredients, directions }) => (
   <Fragment>
+
+
 
   </Fragment>
 );
 export default RecipeFullLayout;
 
 
-const RecipeBodyLayout = () => (
+const RecipeBodyLayout = ({}) => (
   <Fragment>
 
   </Fragment>
@@ -39,7 +41,7 @@ const RecipeBodyLayout = () => (
 export default RecipeBodyLayout;
 
 
-const RecipeListLayout = () => (
+const RecipeListLayout = ({}) => (
   <Fragment>
 
   </Fragment>

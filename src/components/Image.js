@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-const Image = ({ url, title }) => (
-  <img src="" alt />
+const Image = ({ url }) => (
+  <Img src={url} />
 );
 
 export default Image;
