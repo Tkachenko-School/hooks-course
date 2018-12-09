@@ -11,3 +11,5 @@ const DirectionsList = ({ directions, title }) => (
   </Fragment>
 
 );
+
+export default DirectionsList;

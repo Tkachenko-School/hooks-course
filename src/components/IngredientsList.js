@@ -11,3 +11,5 @@ const IngredientsList = ({ ingredients, title }) => (
   </Fragment>
 
 );
+
+export default IngredientsList;
