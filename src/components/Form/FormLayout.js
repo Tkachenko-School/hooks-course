@@ -1,3 +1,8 @@
+import React, {
+   Component,
+   Fragment
+ } from 'react';
+
 import MealName    from ''
 import ImageUrl    from ''
 import Ingredient  from ''
@@ -13,7 +18,10 @@ class FormLayout extends Component {
       <Ingredient />
       <Description />
       <Directions />
-
+      <Button>
+        Submit
+      </Button>
     </Fragment>
   }
 }
+export default FormLayout;
