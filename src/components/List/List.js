@@ -1,19 +1,33 @@
 import React, { Component, Fragment } from 'react';
 
-class List extends Component {
+// {items.map( (value, index) =>
+//   // {console.log(value)}
+//   <RenderItem key={index} value={value} />
+// )}
 
-  render() {
-    const { items, renderItem } = this.props;
+const List = ({ items, children }) => {
 
-    return (
-      <Fragment>
-        {items.map( (index, value) =>
-          {renderItem}
-        )}
-      </Fragment>
-    )
-  }
+  console.log(items)
 
 }
+
+
+// class List extends Component {
+//
+//   render() {
+//     const { items } = this.props;
+//     // console.log(renderItem);
+//     // console.log(items)
+//     return (
+//       <Fragment>
+//         // {(items) =>  {
+//         //     items.map( (value, index) => {console.log(value)}
+//         // }}
+//
+//       </Fragment>
+//     )
+//   }
+//
+// }
 
 export default List;

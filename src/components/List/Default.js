@@ -5,13 +5,14 @@ const Wrapper = ({ children }) => (
   <ul>{children}</ul>
 );
 
-const renderItem = ({ key, value }) => (
+const RenderItem = ({ key, value }) => (
   <li key={key}>{value}</li>
 );
-
+// {renderItem}
 const DefaultList = ({ items }) => (
   <Wrapper>
-    <List items={items} renderItem={renderItem} />
+    <List items={items} renderItem={RenderItem} />
+
   </Wrapper>
 );
 

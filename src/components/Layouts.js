@@ -8,17 +8,15 @@ import Button from ''
 import Link from ''
 
 
-const RecipeCardLayout = () => (
+const RecipeCardLayout = ({ id, name, imageUrl, directions, ingredients,  }) => (
   <Fragment>
-   <Title />
-   <Image />
-   <Directions />
-   <Ingredients />
-   <Button />
-   <Link />
+    <Title />
+    <Image />
+    <Directions />
+    <Ingredients />
+    <Button />
+    <Link />
   </Fragment>
-
-
 );
 export default RecipeCardLayout;
 

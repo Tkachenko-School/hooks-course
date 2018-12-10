@@ -7,6 +7,7 @@ https://drive.google.com/file/d/1Orq3YUqMEnlrpJArn2R5tac7cCoZV7tB/view
 
 https://drive.google.com/file/d/1nztZTBEGzVzIEjStQLokGsUx0UqlIRFo/view
 
+https://drive.google.com/file/d/1Ztq7hO2h2dJWmwu1ZqnijGwEabCOQCLV/view
 
 
 https://github.com/ChickenKyiv/css-course/blob/master/img/single-recipe-page.png

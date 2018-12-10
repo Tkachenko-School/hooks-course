@@ -4,15 +4,21 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-
+import { getRandomRecipe, getRecipe } from './selectors/selector';
+import DefaultList from './components/List/Default';
 
 
 class App extends Component {
   render() {
+
+    // console.log(getRecipe());
+    const recipes = getRecipe();
+    const five = recipes.slice(0, 5);
+    // console.log(five);
     return (
       <div className="App">
 
-
+      <DefaultList items={five} />
 
 
 
