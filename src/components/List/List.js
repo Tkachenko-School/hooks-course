@@ -17,8 +17,8 @@ class List extends Component {
         {items.map( (value) =>
           // {console.log(value)}
           // children(value.key, value.recipe)
-          console.log(value)
-          // children(value)
+          // console.log(value)
+          children(value)
         )}
 
       </Fragment>
