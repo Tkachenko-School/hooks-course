@@ -1,18 +1,18 @@
 import React from 'react';
 import List from './List';
+import shortid from 'shortid';
 
 const Wrapper = ({ children }) => (
   <ul>{children}</ul>
 );
 
-const RenderItem = ({ key, value }) => (
-  <li key={key}>{value}</li>
+const RenderItem = ({ value }) => (
+  <li key={shortid()}>{value}</li>
 );
 // {renderItem}
 const DefaultList = ({ items }) => (
   <Wrapper>
-    <List items={items} renderItem={RenderItem} />
-
+    <List items={items} children={ (data) =>  <RenderItem {...data} />} />
   </Wrapper>
 );
 

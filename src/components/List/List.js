@@ -5,29 +5,39 @@ import React, { Component, Fragment } from 'react';
 //   <RenderItem key={index} value={value} />
 // )}
 
-const List = ({ items, children }) => {
-
-  console.log(items)
-
-}
-
-
-// class List extends Component {
+// const List = ({ items, children }) => {
 //
-//   render() {
-//     const { items } = this.props;
-//     // console.log(renderItem);
-//     // console.log(items)
-//     return (
-//       <Fragment>
-//         // {(items) =>  {
-//         //     items.map( (value, index) => {console.log(value)}
-//         // }}
-//
-//       </Fragment>
-//     )
-//   }
+//   console.log(items);
 //
 // }
+
+// const ListItem = ({ key, value }) => (
+//   <Fragment>
+//     {key} - {value}
+//   </Fragment>
+// );
+
+
+class List extends Component {
+
+  render() {
+    const { items, children } = this.props;
+    // const renderItem = ListItem
+    // console.log(renderItem);
+    console.log(items)
+    return (
+      <Fragment>
+
+      {items.map( (value, index) =>
+        // {console.log(value)}
+        // console.log(value, index)
+        children(value)
+      )}
+
+      </Fragment>
+    )
+  }
+
+}
 
 export default List;
