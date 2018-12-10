@@ -5,7 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import { getFirstFiveRecipes } from './selectors/selector';
-import DefaultList from './components/List/Default';
+import DefaultList from './components/List/DefaultList';
 
 
 class App extends Component {
@@ -19,7 +19,7 @@ class App extends Component {
       <div className="App">
 
       <DefaultList items={["First", "Second", "Thirld"]} />
-      
+
       {/*<RecipeList items={getFirstFiveRecipes()} /> */}
 
 

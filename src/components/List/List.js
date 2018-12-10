@@ -1,11 +1,5 @@
 import React, { Component, Fragment } from 'react';
 
-// {items.map( (value, index) =>
-//   // {console.log(value)}
-//   <RenderItem key={index} value={value} />
-// )}
-
-
 class List extends Component {
 
   render() {
@@ -13,14 +7,10 @@ class List extends Component {
 
     return (
       <Fragment>
-
         {items.map( (value) =>
-          // {console.log(value)}
-          // children(value.key, value.recipe)
           // console.log(value)
           children(value)
         )}
-
       </Fragment>
     )
   }
