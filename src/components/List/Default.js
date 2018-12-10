@@ -1,6 +1,6 @@
 import React from 'react';
 import List from './List';
-
+import from uuid from 'uuid';
 
 const Wrapper = ({ children }) => (
   <ul>{children}</ul>
@@ -8,9 +8,14 @@ const Wrapper = ({ children }) => (
 
 // @TODO yes, later, we should replace this "data" argument for a better name.
 // right now it's just works and i'm tired
-const RenderItem = ({ data }) => (
-  <li key={data.key}>{data.recipe.title}</li>
-)
+const RenderItem = ({ data }) => {
+  console.log(data);
+}
+
+
+// (
+//   <li key={data.key}>{data.recipe.title}</li>
+// )
 
 
 const DefaultList = ({ items }) => (

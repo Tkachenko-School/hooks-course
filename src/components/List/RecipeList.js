@@ -11,9 +11,21 @@ const renderItem = ({ key, value }) => (
   <RecipeCard key={key} data={value} />
 );
 
+
+// @TODO yes, later, we should replace this "data" argument for a better name.
+// right now it's just works and i'm tired
+const RenderItem = ({ data }) => (
+  <li key={data.key}>{data.recipe.title}</li>
+)
+
+
 const RecipeList = ({ items }) => (
   <Wrapper>
-    <List items={items} renderItem={renderItem} />
+    <List items={items} >
+      {(data) =>
+        <RenderItem data={data} key={data.key} />
+      }
+      </List>
   </Wrapper>
 );
 

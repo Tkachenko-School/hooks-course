@@ -18,8 +18,9 @@ class App extends Component {
     return (
       <div className="App">
 
-      <DefaultList items={getFirstFiveRecipes()} />
-
+      <DefaultList items={["First", "Second", "Thirld"]} />
+      
+      {/*<RecipeList items={getFirstFiveRecipes()} /> */}
 
 
       {/*
@@ -38,7 +39,7 @@ class App extends Component {
           </a>
         </header>
         */}
-        
+
       </div>
     );
   }
