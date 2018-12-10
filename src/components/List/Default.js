@@ -6,30 +6,18 @@ const Wrapper = ({ children }) => (
   <ul>{children}</ul>
 );
 
-const RenderItem = ( data ) => {
-  console.log(data.key)
-  // console.log(key)
-  return (<li key={122}>123</li>)
+// @TODO yes, later, we should replace this "data" argument for a better name.
+// right now it's just works and i'm tired
+const RenderItem = ({ data }) => (
+  <li key={data.key}>{data.recipe.title}</li>
+)
 
-}
-//  (
-//   <li key={item.key}>{item.recipe}</li>
-// );
-// {renderItem}
-{/*<RenderItem key={data.key} recipe={data.recipe} /> */}
-// <List
-//   items={items}
-//   children={(data) => { console.log(data.key, data.recipe) }
-//
-//   } />
-// children={(data) => { console.log(data.key, data.recipe) } }
+
 const DefaultList = ({ items }) => (
   <Wrapper>
     <List items={items} >
       {(data) =>
-
-          <RenderItem data={data} />
-
+        <RenderItem data={data} key={data.key} />
       }
       </List>
   </Wrapper>
