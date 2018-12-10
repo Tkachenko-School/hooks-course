@@ -6,8 +6,8 @@ const Wrapper = ({ children }) => (
   <ul>{children}</ul>
 );
 
-const RenderItem = ({ value }) => (
-  <li key={shortid()}>{value}</li>
+const RenderItem = ({ key, value }) => (
+  <li key={key}>{value}</li>
 );
 // {renderItem}
 const DefaultList = ({ items }) => (

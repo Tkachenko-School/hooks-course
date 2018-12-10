@@ -30,8 +30,8 @@ class List extends Component {
 
       {items.map( (value, index) =>
         // {console.log(value)}
-        // console.log(value, index)
-        children(value)
+        console.log(value, index)
+        // children(value)
       )}
 
       </Fragment>
