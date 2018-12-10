@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import { getRandomRecipe, getRecipe } from './selectors/selector';
+import { getFirstFiveRecipes } from './selectors/selector';
 import DefaultList from './components/List/Default';
 
 
@@ -12,13 +12,13 @@ class App extends Component {
   render() {
 
     // console.log(getRecipe());
-    const recipes = getRecipe();
-    const five = recipes.slice(0, 5);
-    // console.log(five);
+    // const recipes = getRecipe();
+    // const five = recipes.slice(0, 5);
+    console.log(getFirstFiveRecipes());
     return (
       <div className="App">
 
-      <DefaultList items={five} />
+      <DefaultList items={getFirstFiveRecipes()} />
 
 
 

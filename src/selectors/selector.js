@@ -1,13 +1,17 @@
 // here we'll store functions that will return an arrays to us.
 import { chickenKyiv } from "@groceristar/groceristar-fetch";
 
-function getRandomRecipe(){
-  return chickenKyiv.getRandomRecipe();
+// function getRandomRecipe(){
+//   return chickenKyiv.getRandomRecipe();
+// }
+//
+// function getRecipe(){
+//   return chickenKyiv.getRecipe();
+// }
+function getFirstFiveRecipes(){
+  return chickenKyiv.getFirstFiveRecipes();
 }
 
-function getRecipe(){
-  return chickenKyiv.getRecipe();
-}
+// export { getRandomRecipe, getRecipe }
 
-
-export { getRandomRecipe, getRecipe }
+export { getFirstFiveRecipes }
