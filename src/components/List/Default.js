@@ -6,9 +6,12 @@ const Wrapper = ({ children }) => (
   <ul>{children}</ul>
 );
 
-const RenderItem = ({ key, value }) => (
-  <li key={key}>{value}</li>
-);
+const RenderItem = ( item ) => {
+  console.log(item)
+}
+//  (
+//   <li key={item.key}>{item.recipe}</li>
+// );
 // {renderItem}
 const DefaultList = ({ items }) => (
   <Wrapper>

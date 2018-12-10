@@ -14,7 +14,7 @@ class App extends Component {
     // console.log(getRecipe());
     // const recipes = getRecipe();
     // const five = recipes.slice(0, 5);
-    console.log(getFirstFiveRecipes());
+    // console.log(getFirstFiveRecipes());
     return (
       <div className="App">
 
@@ -38,6 +38,7 @@ class App extends Component {
           </a>
         </header>
         */}
+        
       </div>
     );
   }
