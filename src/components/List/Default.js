@@ -1,6 +1,6 @@
 import React from 'react';
 import List from './List';
-import shortid from 'shortid';
+
 
 const Wrapper = ({ children }) => (
   <ul>{children}</ul>
