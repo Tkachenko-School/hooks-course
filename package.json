@@ -9,7 +9,7 @@
     "react-image": "^1.5.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.1",
-    "reactstrap": "^7.0.0",
+    "reactstrap": "^7.0.2",
     "shortid": "^2.2.14",
     "uuid": "^3.3.2"
   },
