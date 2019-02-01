@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@groceristar/groceristar-fetch": "^1.1.36",
+    "@groceristar/groceristar-fetch": "^1.1.58",
     "react": "16.7.0-alpha.2",
     "react-dom": "16.7.0-alpha.2",
     "react-image": "^1.5.1",
