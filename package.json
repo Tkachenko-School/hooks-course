@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@groceristar/groceristar-fetch": "^1.1.36",
-    "react": "16.7.0-alpha.2",
+    "react": "16.8.2",
     "react-dom": "16.7.0-alpha.2",
     "react-image": "^1.5.1",
     "react-router-dom": "^4.3.1",
